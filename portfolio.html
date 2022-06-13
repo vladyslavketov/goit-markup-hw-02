@@ -13,95 +13,97 @@
   <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-  <header>
+  <header class="page-header">
     <!-- навігація -->
-    <nav>
-      <a href="./index.html">WebStudio</a>
-      <ul>
-        <li><a href="./index.html">Студия</a></li>
-        <li><a href="./portfolio.html">Портфолио</a></li>
-        <li><a href="">Контакты</a></li>
+    <nav class="header-nav">
+      <a class="logo logo-dark link" href="./index.html"><span class="logo-accent">Web</span>Studio</a>
+      <ul class="list">
+        <li><a class="nav-link link" href="./index.html">Студия</a></li>
+        <li><a class="nav-link link current" href="./portfolio.html">Портфолио</a></li>
+        <li><a class="nav-link link" href="">Контакты</a></li>
       </ul>
     </nav>
     <!-- контакти -->
-    <ul>
-      <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-      <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+    <ul class="list">
+      <li><a class="header-contacts link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+      <li><a class="header-contacts link" href="tel:+380961111111">+38 096 111 11 11</a></li>
     </ul>
   </header>
   <main>
     <!-- блок портфоліо -->
     <section>
       <h1>Портфолио</h1>
-      <!-- фільтер -->
-      <ul>
-        <li><button type="button">Все</button></li>
-        <li><button type="button">Веб-сайты</button></li>
-        <li><button type="button">Приложения</button></li>
-        <li><button type="button">Дизайн</button></li>
-        <li><button type="button">Маркетинг</button></li>
+      <!-- список фільтрів -->
+      <ul class="list">
+        <li><button class="filter" type="button">Все</button></li>
+        <li><button class="filter" type="button">Веб-сайты</button></li>
+        <li><button class="filter" type="button">Приложения</button></li>
+        <li><button class="filter" type="button">Дизайн</button></li>
+        <li><button class="filter" type="button">Маркетинг</button></li>
       </ul>
-      <!-- проекти -->
-      <ul>
-        <li>
+      <!-- список проектів -->
+      <ul class="list">
+        <li class="project-item">
           <img src="./images/project-1.jpg" alt="project-1" width="370" height="294">
-          <h2>Технокряк</h2>
-          <p>Веб-сайт</p>
+          <h2 class="project-title">Технокряк</h2>
+          <p class="project-tag">Веб-сайт</p>
         </li>
-        <li>
+        <li class="project-item">
           <img src="./images/project-2.jpg" alt="project-2" width="370" height="294">
-          <h2>Постер <span lang="en">New Orlean vs Golden Star</span></h2>
-          <p>Дизайн</p>
+          <h2 class="project-title">Постер <span lang="en">New Orlean vs Golden Star</span></h2>
+          <p class="project-tag">Дизайн</p>
         </li>
-        <li>
+        <li class="project-item">
           <img src="./images/project-3.jpg" alt="project-3" width="370" height="294">
-          <h2>Ресторан <span lang="en">Seafood</span></h2>
-          <p>Приложение</p>
+          <h2 class="project-title">Ресторан <span lang="en">Seafood</span></h2>
+          <p class="project-tag">Приложение</p>
         </li>
-        <li>
+        <li class="project-item">
           <img src="./images/project-4.jpg" alt="project-4" width="370" height="294">
-          <h2>Проект <span lang="en">Prime</span></h2>
-          <p>Маркетинг</p>
+          <h2 class="project-title">Проект <span lang="en">Prime</span></h2>
+          <p class="project-tag">Маркетинг</p>
         </li>
-        <li>
+        <li class="project-item">
           <img src="./images/project-5.jpg" alt="project-5" width="370" height="294">
-          <h2>Проект <span lang="en">Boxes</span></h2>
-          <p>Приложение</p>
+          <h2 class="project-title">Проект <span lang="en">Boxes</span></h2>
+          <p class="project-tag">Приложение</p>
         </li>
-        <li>
+        <li class="project-item">
           <img src="./images/project-6.jpg" alt="project-6" width="370" height="294">
-          <h2 lang="en">Inspiration has no Borders</h2>
-          <p>Веб-сайт</p>
+          <h2 class="project-title" lang="en">Inspiration has no Borders</h2>
+          <p class="project-tag">Веб-сайт</p>
         </li>
-        <li>
+        <li class="project-item">
           <img src="./images/project-7.jpg" alt="project-7" width="370" height="294">
-          <h2>Издание <span lang="en">Limited Edition</span></h2>
-          <p>Дизайн</p>
+          <h2 class="project-title">Издание <span lang="en">Limited Edition</span></h2>
+          <p class="project-tag">Дизайн</p>
         </li>
-        <li>
+        <li class="project-item">
           <img src="./images/project-8.jpg" alt="project-8" width="370" height="294">
-          <h2>Проект <span lang="en">LAB</span></h2>
-          <p>Маркетинг</p>
+          <h2 class="project-title">Проект <span lang="en">LAB</span></h2>
+          <p class="project-tag">Маркетинг</p>
         </li>
-        <li>
+        <li class="project-item">
           <img src="./images/project-9.jpg" alt="project-9" width="370" height="294">
-          <h2 lang="en">Growing Business</h2>
-          <p>Приложение</p>
+          <h2 class="project-title" lang="en">Growing Business</h2>
+          <p class="project-tag">Приложение</p>
         </li>
       </ul>
 
     </section>
 
   </main>
-  <footer>
+  <footer class="page-footer">
     <!-- логотип -->
-    <a href="./index.html">WebStudio</a>
+    <a class="logo logo-light link" href="./index.html"><span class="logo-accent">Web</span>Studio</a>
     <!-- контакти -->
     <address>
-      <ul>
-        <li><p>г. Киев, пр-т Леси Украинки, 26</p></li>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+380991111111">+38 099 111 11 11</a></li>
+      <ul class="list">
+        <li>
+          <p class="footer-address">г. Киев, пр-т Леси Украинки, 26</p>
+        </li>
+        <li><a class="footer-contacts link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+        <li><a class="footer-contacts link" href="tel:+380991111111">+38 099 111 11 11</a></li>
       </ul>
     </address>
   </footer>
